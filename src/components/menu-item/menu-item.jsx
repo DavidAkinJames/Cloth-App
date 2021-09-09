@@ -20,7 +20,7 @@ const MenuItem = ({ title, imageUrl, size, history,linkUrl, match }) => (
 );
  
 
-
+//withRouter is a higher Order Function that takes a component as an argument and returns a powerful modified component of its own.
 export default withRouter(MenuItem);
 
 
